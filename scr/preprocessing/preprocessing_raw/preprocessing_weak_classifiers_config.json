@@ -1,0 +1,7 @@
+{
+    "_comment": "Run Following: python weak_classifiers_preprocessing.py --config main_preprocessing_config.json",
+    "data_path_train": "data/raw/training",
+    "data_path_test": "data/raw/testing",
+    "dataset_length_min": 15000,
+    "save_path": "data/weak_classifiers/"
+}

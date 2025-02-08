@@ -1,0 +1,6 @@
+{
+    "_comment": "Configuration for weak classifiers multimixing script: python multi_mixing.py --config training_transformers_multi_mixing_config.json",
+    "data_path": "/data/transformers/training_preprocessed/",
+    "save_path": "/data/transformers/training_multi_mixing/",
+    "mode":0
+}

@@ -1,0 +1,11 @@
+{
+    "_comment": "Configuration for training weakclassifiers script: python run_weak_classifiers.py --config run_weak_classifiers_config.json",
+
+    "data_path": "data/transformers/training_multi_mixing",
+    
+    "data": {
+        "test_size": 0.3
+    },
+    
+    "models_path": "data/weak_classifiers/trained_models"
+}

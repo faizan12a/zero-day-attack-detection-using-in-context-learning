@@ -1,0 +1,20 @@
+{   "cuda_device": 5,
+    "test_data_path": "data/transformers/testing_preprocessed/",
+    "weak_classifier_path": "data/transformers/testing_weak_classifiers_output/",
+    "transformer_path": "data/transformers/trained_models/",
+    "performance_path": "data/test/transformers/",
+    "model_name":"TF",
+    "model_type": "WC",
+    "gpt_params": {
+        "max_Shots": 11,
+        "min_Shots": 0,
+        "mode": 0,
+        "test_mode": 1,
+        "Testing_Name": "Test",
+        "Total_Testing": 1,
+        "device": "cuda",
+        "NO_WC": 10,
+        "BATCH_SIZE": 10000,
+        "num_of_samples": 10
+    }
+}

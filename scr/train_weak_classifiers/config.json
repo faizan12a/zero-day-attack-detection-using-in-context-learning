@@ -1,0 +1,16 @@
+{
+    "_comment": "Configuration for training weakclassifiers script: python main.py --config config.json",
+
+    "data_path": "data/weak_classifiers/training_multi_mixing",
+    
+    "data": {
+        "test_size": 0.3
+    },
+    "model": {
+        "dropout_rate": 0.2
+    },
+    "output": {
+        "model_save_path": "data/weak_classifiers/trained_models",
+        "verbose": true
+    }
+}

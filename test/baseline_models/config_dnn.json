@@ -1,0 +1,10 @@
+{
+    "base_path": "/home/mfaizan/programs/my_project/",
+    "data_path": "data/weak_classifiers/testing_preprocessed/",
+    "results_save_path": "data/test/",
+    "file_name": "results_base_models.xlsx",
+    "model": "DNN",
+    "tasks": 300,
+    "batch_size": 240,
+    "model_path": "data/baselines/trained_models/dnn/"
+}

@@ -1,0 +1,12 @@
+{
+    "_comment": "Configuration for training weakclassifiers script: python run_weak_classifiers_test.py --config run_weak_classifiers_test_config.json",
+
+    "data_path": "data/transformers/testing_preprocessed/",
+    "save_path": "data/transformers/testing_weak_classifiers_output/",
+    
+    "data": {
+        "test_size": 0.3
+    },
+    
+    "models_path": "data/weak_classifiers/trained_models"
+}

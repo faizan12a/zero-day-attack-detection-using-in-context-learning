@@ -1,0 +1,23 @@
+{
+    "cuda_device": 6,
+    "data": {
+        "TF_Data": "data/transformers/training_multi_mixing/",
+        "TF_Save_Path": "data/transformers/trained_models/TF/Mix/"
+    },
+    "dataset": {
+        "Perc_OOD": 0.3,
+        "num_weak_classifiers": 10,
+        "num_of_samples": 10,
+        "Samples": 300000
+    },
+    "training": {
+        "NO_WC": 10,
+        "model_No": "1",
+        "num_epochs": 3
+    },
+    "model": {
+        "EMBED_DIM": 768,
+        "model_name": "TF",
+        "model_type": "Mix"
+    }
+}
